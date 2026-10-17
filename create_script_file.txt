@@ -1,0 +1,24 @@
+1. CREATE A NEW SCRIPT FILE
+   Open your terminal and create a new file using a text editor like nano:
+   
+   $ nano myscript.sh
+
+2. WRITE YOUR FIRST SCRIPT
+   Add the Shebang line at the very top, followed by your code:
+
+   #!/bin/bash
+   echo "Hello! This is my first bash script."
+
+   Note:
+   - Save in Nano: Press Ctrl + O, then hit Enter.
+   - Exit Nano: Press Ctrl + X.
+
+3. MAKE THE SCRIPT EXECUTABLE
+   By default, Linux files do not have execution permissions. Grant permission using:
+
+   $ chmod +x myscript.sh
+
+4. RUN YOUR SCRIPT
+   Execute the script directly from your current directory:
+
+   $ ./myscript.sh
