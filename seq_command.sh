@@ -1,0 +1,5 @@
+#!/bin/bash
+for a in $'seq 1 2 10'
+do 
+echo $a
+done
